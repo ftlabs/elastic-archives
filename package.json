@@ -1,0 +1,30 @@
+{
+  "name": "elastic-archives",
+  "version": "1.0.0",
+  "description": "Put the XML archives into a search Elasticsearch instance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftlabs/elastic-archives.git"
+  },
+  "author": "Sean M. Tracey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftlabs/elastic-archives/issues"
+  },
+  "homepage": "https://github.com/ftlabs/elastic-archives#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "debug": "^2.6.3",
+    "dotenv": "^4.0.0",
+    "node-fetch": "^1.6.3",
+    "remove-whitespace": "^1.1.0",
+    "walk": "^2.3.9",
+    "xml2js": "^0.4.17",
+    "yargs": "^7.0.2"
+  }
+}
